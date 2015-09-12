@@ -2,7 +2,7 @@ library(dplyr)
 library(tidyr)
 library(ggplot2)
 
-simdat <- read.csv("nfl.2015.simulations.20150817.csv", stringsAsFactors=FALSE)
+simdat <- read.csv("nfl.2015.simulations.20150908.csv", stringsAsFactors=FALSE)
 
 plotdat <- simdat %>%
   gather(variable, value, simscore.1:simscore.1000) %>%
