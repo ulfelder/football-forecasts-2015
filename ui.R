@@ -27,7 +27,7 @@ shinyUI(pageWithSidebar(
                        within 1.5 times the IQR. Any simulated scores more extreme than those are shown as points.", style = "font-family: 'georgia';")),
     
     conditionalPanel(condition="input.options==4",
-                     img(src = "chimppic.jpg", height=380, width=380))
+                     img(src = "unnamed.jpg", height=380, width=380))
     
                      ),
   
